@@ -107,3 +107,5 @@ print(differential_meaning_monitor(goal='Push a git commit', constraints='If aut
 ```
 
 ---
+
+**Differential Meaning Monitor exists because meaning, like current, must be conserved.**
