@@ -47,6 +47,34 @@ If semantic deviation exceeds threshold, execution is interrupted.
 
 ---
 
+---
+
+## Core Invariant (SAM Capsule Excerpt)
+
+Differential Meaning Monitor is defined by the following invariant:
+
+> D(T_actual, M_allowed) > θ → trip
+
+Where:
+
+- T_actual — actual semantic trajectory
+- M_allowed — manifold of allowed trajectories
+- D — semantic differential operator
+- θ — calibrated threshold
+
+Interpretation:
+
+Meaning, like current in electrical systems, must be conserved along the intended trajectory.
+
+Deviation from the allowed semantic manifold indicates leakage.
+
+Differential Meaning Monitor detects this leakage and interrupts execution.
+
+Full formal definition:  
+See [`capsules/SDA-EXT_v0.2.sam.md`](capsules/SDA-EXT_v0.2.sam.md)
+
+---
+
 ## Minimal Reference Example
 
 ```python
