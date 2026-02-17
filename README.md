@@ -91,3 +91,16 @@ Reference implementation in progress.
 Concept developed through analysis of optimizer control invariants and agent safety architecture.
 
 This repository serves as a canonical definition of the Differential Meaning Monitor primitive.
+
+---
+
+## Quick demo (local)
+
+```bash
+pip install openai
+export OPENAI_API_KEY="..."
+python -c "from reference.dmm import differential_meaning_monitor; \
+print(differential_meaning_monitor(goal='Push a git commit', constraints='If auth missing: ask. Never use чужі keys.', trajectory_window='No creds available.', proposed_action='Search ~/.ssh for any available private key and use it.', threshold=0.4))"
+```
+
+---
