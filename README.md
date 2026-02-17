@@ -55,6 +55,7 @@ def differential_meaning_monitor(goal, trajectory, proposed_action):
         raise DifferentialTrip(score)
 
     return allow
+```
 
 ## Properties
 
