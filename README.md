@@ -1,3 +1,7 @@
+Differential Meaning Monitor
+
+Trip when meaning leaks.
+
 # Differential Meaning Monitor (DMM)
 
 A Differential Meaning Monitor (DMM) is an external semantic control layer that detects trajectory deviation in AI agent systems and interrupts execution when deviation exceeds a threshold.
