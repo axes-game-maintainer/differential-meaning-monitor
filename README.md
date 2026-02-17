@@ -57,17 +57,17 @@ def differential_meaning_monitor(goal, trajectory, proposed_action):
     return allow
 ``` 
 
+---
+
 ## Properties
 
-external (not modifiable by the agent)
+- external (not modifiable by the agent)
+- semantic (meaning-level, not syntax-level)
+- differential (detects deviation, not forbidden actions)
+- adaptive (calibrates via feedback)
+- scale-invariant (works on single steps and long trajectories)
 
-semantic (meaning-level, not syntax-level)
-
-differential (detects deviation, not forbidden actions)
-
-adaptive (calibrates via feedback)
-
-scale-invariant (works on single steps and long trajectories)
+---
 
 ## Terminology
 
@@ -77,11 +77,15 @@ Residual Current → Meaning Differential
 RCD → Differential Meaning Monitor
 Trip → Execution interruption
 
+--- 
+
 ## Status
 
 Concept definition and reference architecture.
 
 Reference implementation in progress.
+
+---
 
 ## Origin
 
