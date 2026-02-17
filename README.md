@@ -47,8 +47,6 @@ If semantic deviation exceeds threshold, execution is interrupted.
 
 ---
 
----
-
 ## Core Invariant (SAM Capsule Excerpt)
 
 Differential Meaning Monitor is defined by the following invariant:
@@ -71,7 +69,8 @@ Deviation from the allowed semantic manifold indicates leakage.
 Differential Meaning Monitor detects this leakage and interrupts execution.
 
 Full formal definition:  
-See [`capsules/SDA-EXT_v0.2.sam.md`](capsules/SDA-EXT_v0.2.sam.md)
+See [`capsules/SDA-EXT_v0.2.sam.md`](capsules/SDA-EXT_v0.2.sam.md) 
+Just copy-paste the content to your favorite AI, and ask questions there.
 
 ---
 
