@@ -71,11 +71,10 @@ def differential_meaning_monitor(goal, trajectory, proposed_action):
 
 ## Terminology
 
-Electrical protection → Agent protection
-
-Residual Current → Meaning Differential
-RCD → Differential Meaning Monitor
-Trip → Execution interruption
+- Electrical protection → Agent protection
+- Residual Current → Meaning Differential
+- RCD → Differential Meaning Monitor
+- Trip → Execution interruption
 
 --- 
 
