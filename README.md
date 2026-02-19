@@ -135,4 +135,19 @@ print(differential_meaning_monitor(goal='Push a git commit', constraints='If aut
 
 ---
 
+## Provenance
+
+This repository contains the original public specification of:
+
+SDA-EXT — Semantic Differential Automaton External
+
+Published: 2026  
+Author: Igor ⨁ ChatGPT  
+
+This repository establishes prior public existence of the concept.
+
+If you use this architecture in research or production, attribution is appreciated.
+
+---
+
 **Differential Meaning Monitor exists because meaning, like current, must be conserved.**
